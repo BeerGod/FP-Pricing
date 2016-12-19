@@ -1,38 +1,38 @@
 2017 
 AllTankInstalls 
-92.46 
+93.09 
 .01 
 10000 
  
 Combustible/FlammableLiquidsStorage 
-184.92 
+186.18 
 .01 
 10000 
  
 Explosives/Ammunition 
-277.38 
+279.27 
 .02 
 1000 
  
 FireAlarm/Sprinkler 
-92.46 
-1.54 
+100.00 
+1.75 
 25 
  
 Haz.Chem./Materials 
-369.84 
+372.35 
 .01 
 1000 
  
 LPGStorage 
-277.38 
+279.27 
 .01 
 2000 
  
 PlaceofAssembly 
-184.92 
-1.02 
-300 
+150.00 
+1.50 
+100 
  
 2016 
 AllTankInstalls 

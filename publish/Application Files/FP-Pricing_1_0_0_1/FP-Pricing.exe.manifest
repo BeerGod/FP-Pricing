@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FP-Pricing.exe" version="1.0.0.1" publicKeyToken="9f900698d0f30f77" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FP-Pricing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FP-Pricing.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FP-Pricing.exe" size="21440">
+      <assemblyIdentity name="FP-Pricing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>llF3NkseOD2Eh4A49bjkxfBa77Jvy3N8usR+S4bu1xw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FP-Pricing.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LICENSE.txt" size="1094">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4v3YUyDzZjP4T3vTnqqRd3cfkf+sS2sqIZDx2NQqkoc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=COUNTY\tmatchett" issuerKeyHash="42c668e1c001f83f4d201e5c1ef5551c43291882" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L+zF0tfI7yBiRYVbS3ytNIY7pBP3oSPZti/cV34WZ9A=</DigestValue></Reference></SignedInfo><SignatureValue>k+Jm8+ZOC9WFG+ghRhIbZWDzetFtiysOEtZvcAd6l8rWQy/wOUzfh7uHNz7IOa3e/KQ4CFBNaruMjvn9ftEZNWSMELH0rcGfD+msQiwFda2RkcHboI8I1SYTBjI27g3yCxTmKzJHl/6+DJCO6G0b/22CCs0FDwSaR8MS9Q6Of+Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n5QMuEbsalx8uezYfHw7VPjMI7561egj6cHwclMDARVSHmYVeUtmckC3BxeJ/Kf2k4k8r7EJExR4iJLDYlESlyjDzGsk1m3Bon1GuXOsabcmozHpuaMvkuHY3wmHUCY2PWKQjOQQjR1q95c3BNN7u8zbHlHMUUCHomVCyGoFfGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d067167e57dc2fb6d923a1f713a43b8634ad7c4b5b85456220efc8d7d2c5ec2f" Description="" Url=""><as:assemblyIdentity name="FP-Pricing.exe" version="1.0.0.1" publicKeyToken="9f900698d0f30f77" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=COUNTY\tmatchett</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UDj7YkJ+b8zIld4lezI8Ia//25QYs0X2lcBUG/lvono=</DigestValue></Reference></SignedInfo><SignatureValue>Z5Acm4oaB7ZrLrWW4pGh3qcelmq/WU+OQNrkMa3jjSH4TNLaPeJoRGW/bcqrD6B2VbXb7FTx7YGoR4/iYFdawOBSMWEXGFIvNlY475wwKWJDEMBwWo6ogKPr+c9PMWneRgu0+qtx00N6cxFlUyjln/9mEQ7fLJIlZrlMETAb8HQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n5QMuEbsalx8uezYfHw7VPjMI7561egj6cHwclMDARVSHmYVeUtmckC3BxeJ/Kf2k4k8r7EJExR4iJLDYlESlyjDzGsk1m3Bon1GuXOsabcmozHpuaMvkuHY3wmHUCY2PWKQjOQQjR1q95c3BNN7u8zbHlHMUUCHomVCyGoFfGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQFmoMgtLCfptJ5f7/uOyVozANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQwBPAFUATgBUAFkAXAB0AG0AYQB0AGMAaABlAHQAdDAeFw0xNjEyMTkxNjEzMDZaFw0xNzEyMTkyMjEzMDZaMCsxKTAnBgNVBAMeIABDAE8AVQBOAFQAWQBcAHQAbQBhAHQAYwBoAGUAdAB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCflAy4RuxqXHy57Nh8fDtU+MwjvnrV6CPpwfByUwMBFVIeZhV5S2ZyQLcHF4n8p/aTiTyvsQkTFHiIksNiURKXKMPMayTWbcGifUa5c6xptyajMem5oy+S4djfCYdQJjY9YpCM5BCNHWr3lzcE03u7zNseUcxRQIeiZULIagV8ZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABKueXI63wfITieL3GfHvLK8131Jkc16fqzd2Mqv3sKnVOnFT/JXn9+3Pax5lXGHnyGmn1WxjCzXt+XoCyA1DOUgPQLLj2+wtHNnm8F+sK6zYMgQ7MahgBIoflqpGDNulVkWoxKtxJLIGffR9QV8Qx3XO/VKCNxB5/OWWSeuLpMq</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,35 @@
+All Tank Installs
+92.46
+.01
+10000
+ 
+Combustible / Flammable Liquids Storage
+184.92
+.01
+10000
+ 
+Explosives / Ammunition
+277.38
+.02
+1000
+ 
+Fire Alarm / Sprinkler
+92.46
+1.54
+25
+ 
+Haz. Chem. / Materials
+369.84
+.01
+1000
+ 
+LPG Storage
+277.38
+.01
+2000
+ 
+Place of Assembly
+184.92
+1.02
+300
+ 

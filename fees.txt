@@ -1,35 +1,72 @@
-All Tank Installs
-92.46
-.01
-10000
+2017 
+AllTankInstalls 
+92.46 
+.01 
+10000 
  
-Combustible / Flammable Liquids Storage
-184.92
-.01
-10000
+Combustible/FlammableLiquidsStorage 
+184.92 
+.01 
+10000 
  
-Explosives / Ammunition
-277.38
-.02
-1000
+Explosives/Ammunition 
+277.38 
+.02 
+1000 
  
-Fire Alarm / Sprinkler
-92.46
-1.54
-25
+FireAlarm/Sprinkler 
+92.46 
+1.54 
+25 
  
-Haz. Chem. / Materials
-369.84
-.01
-1000
+Haz.Chem./Materials 
+369.84 
+.01 
+1000 
  
-LPG Storage
-277.38
-.01
-2000
+LPGStorage 
+277.38 
+.01 
+2000 
  
-Place of Assembly
-184.92
-1.02
-300
+PlaceofAssembly 
+184.92 
+1.02 
+300 
+ 
+2016 
+AllTankInstalls 
+92.46 
+.01 
+10000 
+ 
+Combustible/FlammableLiquidsStorage 
+184.92 
+.01 
+10000 
+ 
+Explosives/Ammunition 
+277.38 
+.02 
+1000 
+ 
+FireAlarm/Sprinkler 
+92.46 
+1.54 
+25 
+ 
+Haz.Chem./Materials 
+369.84 
+.01 
+1000 
+ 
+LPGStorage 
+277.38 
+.01 
+2000 
+ 
+PlaceofAssembly 
+184.92 
+1.02 
+300 
  
